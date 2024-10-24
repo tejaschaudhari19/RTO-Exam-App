@@ -51,7 +51,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="36dp"
-                android:text="• Subject like Rules and Regulations of traffic, and traffic signage's are included in the test.\n\n• 15 questions are asked in the test at random, out of which 9 questions are required to be answered correctly to pass the test.\n\n• 30 seconds are allowed to answer each question."
+                android:text="• Subject like Rules and Regulations of traffic, and traffic signage's are included in the test.\n\n• 15 questions are asked in the test at random, out of which 8 questions are required to be answered correctly to pass the test.\n\n• 30 seconds are allowed to answer each question."
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
