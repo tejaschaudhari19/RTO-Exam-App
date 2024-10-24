@@ -21,8 +21,8 @@ public class PrivacyPolicyActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         privacy_policy=findViewById(R.id.privacy_policy);
-        String privacyPolicy = "<b>Last updated: Jul 23, 2021</b><br><br>" +
-                "Techsoft Private Limited built the RTO Exam app as an Ad Supported app. This SERVICE is provided by Techsoft Private Limited at no cost and is intended for use as is.<br><br>" +
+        String privacyPolicy = "<b>Last updated: Oct 24, 2024</b><br><br>" +
+                "Technova Private Limited built the RTO Exam app as an Ad Supported app. This SERVICE is provided by Technova Private Limited at no cost and is intended for use as is.<br><br>" +
                 "This page is used to inform app visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.<br><br>" +
                 "If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.<br><br>" +
                 "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at RTO Exam unless otherwise defined in this Privacy Policy.<br><br>" +

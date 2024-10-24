@@ -21,7 +21,7 @@ public class TermsConditionsActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         terms_conditions=findViewById(R.id.terms_conditions);
-        String termsConditions = "<b>Last updated: May 11, 2021</b><br><br>" +
+        String termsConditions = "<b>Last updated: Jul 07, 2024</b><br><br>" +
                 "By installing the RTO Exam App, you agree to be bound by this Agreement and understand that there is no tolerance for objectionable content. If you do not agree with the terms and conditions of this Agreement, you are not entitled to use the RTO Exam App.<br><br>" +
                 "In order to ensure RTO Exam provides the best experience possible for everyone, we strongly enforce a no tolerance policy for objectionable content. If you see inappropriate content, please contact us at contact@rtoexam.com.<br><br>" +
                 "<b>Privacy Policy</b><br><br>" +
