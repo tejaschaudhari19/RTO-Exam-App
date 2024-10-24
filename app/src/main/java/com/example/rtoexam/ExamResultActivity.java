@@ -33,8 +33,8 @@ public class ExamResultActivity extends AppCompatActivity {
         int correctAnswers = getIntent().getIntExtra("correctAnswers", 0);
         int totalQuestions = getIntent().getIntExtra("totalQuestions", 15);
 
-        resultTextView.setText(correctAnswers >= 9 ? "Passed! \uD83E\uDD73" : "Failed! ☹\uFE0F");
-        resultstmtTextView.setText(correctAnswers >= 9 ? "Congratulations! You've just cleared driving licence test. Practice more to increase your success chances in actual test." : "Sorry, you have failed in driving licence test. We would suggest you to refer question bank and try again.");
+        resultTextView.setText(correctAnswers >= 8 ? "Passed! \uD83E\uDD73" : "Failed! ☹\uFE0F");
+        resultstmtTextView.setText(correctAnswers >= 8 ? "Congratulations! You've just cleared driving licence test. Practice more to increase your success chances in actual test." : "Sorry, you have failed in driving licence test. We would suggest you to refer question bank and try again.");
         scoreTextView.setText("You answered " + correctAnswers + " out of " + totalQuestions + " correctly.");
 
         homeButton.setOnClickListener(new View.OnClickListener() {
