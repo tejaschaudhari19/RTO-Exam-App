@@ -2,6 +2,7 @@ package com.example.rtoexam;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -40,7 +41,7 @@ public class ChatbotActivity extends AppCompatActivity {
         scrollView = findViewById(R.id.scroll_view);
         responseText = findViewById(R.id.response_text);
 
-        GenerativeModel gm = new GenerativeModel("gemini-pro", "API_KEY_HERE");
+        GenerativeModel gm = new GenerativeModel("gemini-pro", "AIzaSyDblq8QWwFjeVOINg-0OfbnwecxSYREkZk");
         model = GenerativeModelFutures.from(gm);
 
         Button sendButton = findViewById(R.id.send_button);
