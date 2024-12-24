@@ -41,7 +41,7 @@ public class ChatbotActivity extends AppCompatActivity {
         scrollView = findViewById(R.id.scroll_view);
         responseText = findViewById(R.id.response_text);
 
-        GenerativeModel gm = new GenerativeModel("gemini-pro", "AIzaSyDblq8QWwFjeVOINg-0OfbnwecxSYREkZk");
+        GenerativeModel gm = new GenerativeModel("gemini-pro", "YOUR_API_KEY");
         model = GenerativeModelFutures.from(gm);
 
         Button sendButton = findViewById(R.id.send_button);
